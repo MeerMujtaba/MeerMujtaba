@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Language stack</title>
+  <desc id="desc">A repository-weighted technology breakdown.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#065f53"/>
+      <stop offset=".6" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1e3a70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="360" rx="22" fill="url(#frame)"/>
+  <rect x="32" y="30" width="936" height="298" rx="21" fill="#082b2a" stroke="#2dd4bf"/>
+  <text x="54" y="74" fill="#ccfbf1" font-size="27" font-weight="800" font-family="Inter, Arial, sans-serif">Language Stack</text>
+  <text x="54" y="99" fill="#5eead4" font-size="14" font-weight="700" letter-spacing="1" font-family="Inter, Arial, sans-serif">REPOSITORY-WEIGHTED TECHNOLOGIES</text>
+  <text x="905" y="74" text-anchor="end" fill="#5eead4" font-size="14" font-weight="700" font-family="ui-monospace, Consolas, monospace">&gt; stack.scan _</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <circle cx="64" cy="138" r="6" fill="#f06529"/><text x="84" y="143" fill="#ccfbf1" font-size="16" font-weight="700">HTML</text><text x="330" y="143" fill="#f06529" text-anchor="end" font-size="14" font-weight="800">33%</text><rect x="360" y="133" width="540" height="10" rx="5" fill="#244341"/><rect x="360" y="133" width="178" height="10" rx="5" fill="#f06529"/>
+    <circle cx="64" cy="188" r="6" fill="#8b5cf6"/><text x="84" y="193" fill="#ccfbf1" font-size="16" font-weight="700">CSS</text><text x="330" y="193" fill="#8b5cf6" text-anchor="end" font-size="14" font-weight="800">33%</text><rect x="360" y="183" width="540" height="10" rx="5" fill="#244341"/><rect x="360" y="183" width="178" height="10" rx="5" fill="#8b5cf6"/>
+    <circle cx="64" cy="238" r="6" fill="#f7df1e"/><text x="84" y="243" fill="#ccfbf1" font-size="16" font-weight="700">JavaScript</text><text x="330" y="243" fill="#f7df1e" text-anchor="end" font-size="14" font-weight="800">17%</text><rect x="360" y="233" width="540" height="10" rx="5" fill="#244341"/><rect x="360" y="233" width="92" height="10" rx="5" fill="#f7df1e"/>
+    <circle cx="64" cy="288" r="6" fill="#38bdf8"/><text x="84" y="293" fill="#ccfbf1" font-size="16" font-weight="700">Java</text><text x="330" y="293" fill="#38bdf8" text-anchor="end" font-size="14" font-weight="800">17%</text><rect x="360" y="283" width="540" height="10" rx="5" fill="#244341"/><rect x="360" y="283" width="92" height="10" rx="5" fill="#38bdf8"/>
+  </g>
+</svg>

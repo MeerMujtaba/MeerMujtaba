@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="220" viewBox="0 0 1000 220" role="img" aria-labelledby="title desc">
+  <title id="title">Meer Mujtaba profile highlights</title>
+  <desc id="desc">Three profile panels for HTML, building, and impact.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#065f53"/>
+      <stop offset=".58" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1e3a70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="220" rx="22" fill="url(#frame)"/>
+  <text x="38" y="52" fill="#99f6e4" font-size="13" font-weight="800" letter-spacing="6" font-family="Inter, Arial, sans-serif">HIGHLIGHTS</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(34 72)">
+      <rect width="290" height="116" rx="19" fill="#082b2a" stroke="#2dd4bf"/>
+      <rect x="0" y="27" width="5" height="62" rx="3" fill="#5eead4"/>
+      <text x="28" y="51" fill="#ccfbf1" font-size="22" font-weight="800">HTML</text>
+      <text x="28" y="79" fill="#5eead4" font-size="14">6 public repositories</text>
+    </g>
+    <g transform="translate(355 72)">
+      <rect width="290" height="116" rx="19" fill="#082b2a" stroke="#2dd4bf"/>
+      <rect x="0" y="27" width="5" height="62" rx="3" fill="#22d3ee"/>
+      <text x="28" y="51" fill="#ccfbf1" font-size="22" font-weight="800">Building</text>
+      <text x="28" y="79" fill="#5eead4" font-size="14">Shipping in the open</text>
+    </g>
+    <g transform="translate(676 72)">
+      <rect width="290" height="116" rx="19" fill="#082b2a" stroke="#2dd4bf"/>
+      <rect x="0" y="27" width="5" height="62" rx="3" fill="#818cf8"/>
+      <text x="28" y="51" fill="#ccfbf1" font-size="22" font-weight="800">Impact</text>
+      <text x="28" y="79" fill="#5eead4" font-size="14">2 stars · 13 active days</text>
+    </g>
+  </g>
+</svg>

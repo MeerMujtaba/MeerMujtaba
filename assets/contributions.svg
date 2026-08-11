@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Animated contribution activity</title>
+  <desc id="desc">A teal yearly contribution grid with a small animated plane firing glowing bullets.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#065f53"/>
+      <stop offset=".6" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#1e3a70"/>
+    </linearGradient>
+    <linearGradient id="planePaint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1" width="11" height="11" rx="2.2" fill="#123d3b"/>
+    </pattern>
+    <filter id="shotGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="300" rx="22" fill="url(#frame)"/>
+  <rect x="32" y="30" width="936" height="238" rx="21" fill="#082b2a" stroke="#2dd4bf"/>
+  <text x="54" y="72" fill="#ccfbf1" font-size="26" font-weight="800" font-family="Inter, Arial, sans-serif">Contribution Activity</text>
+  <text x="54" y="98" fill="#5eead4" font-size="15" font-weight="700" font-family="Inter, Arial, sans-serif">70 contributions in the last year</text>
+  <text x="728" y="84" fill="#99f6e4" font-size="11" font-family="Inter, Arial, sans-serif">Less</text>
+  <g transform="translate(763 74)">
+    <rect x="0" y="0" width="11" height="11" rx="2" fill="#123d3b"/>
+    <rect x="18" y="0" width="11" height="11" rx="2" fill="#155e59"/>
+    <rect x="36" y="0" width="11" height="11" rx="2" fill="#0d9488"/>
+    <rect x="54" y="0" width="11" height="11" rx="2" fill="#2dd4bf"/>
+    <rect x="72" y="0" width="11" height="11" rx="2" fill="#5eead4"/>
+  </g>
+  <text x="858" y="84" fill="#99f6e4" font-size="11" font-family="Inter, Arial, sans-serif">More</text>
+  <rect x="54" y="116" width="854" height="112" fill="url(#grid)"/>
+  <g fill="#155e59">
+    <rect x="486" y="213" width="11" height="11" rx="2"/><rect x="710" y="181" width="11" height="11" rx="2"/>
+    <rect x="758" y="197" width="11" height="11" rx="2"/><rect x="806" y="181" width="11" height="11" rx="2"/>
+    <rect x="822" y="197" width="11" height="11" rx="2"/>
+  </g>
+  <g fill="#0d9488">
+    <rect x="838" y="149" width="11" height="11" rx="2"/><rect x="838" y="165" width="11" height="11" rx="2"/>
+    <rect x="854" y="181" width="11" height="11" rx="2"/><rect x="886" y="133" width="11" height="11" rx="2"/>
+    <rect x="902" y="165" width="11" height="11" rx="2"/>
+  </g>
+  <g fill="#2dd4bf">
+    <rect x="870" y="213" width="11" height="11" rx="2"/><rect x="902" y="149" width="11" height="11" rx="2"/>
+  </g>
+  <rect x="886" y="213" width="11" height="11" rx="2" fill="#5eead4"/>
+
+  <!-- Plane and its bullets share the same flight path so the shots emerge from its nose. -->
+  <g>
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 78 240 C 300 226, 610 190, 858 145"/>
+    <g transform="rotate(-9)">
+      <path d="M0 0 L31 -6 L23 0 L31 6 Z" fill="url(#planePaint)" filter="url(#shotGlow)"/>
+      <path d="M11 0 L1 -13 L18 -3 Z" fill="#ccfbf1"/>
+      <path d="M11 0 L1 13 L18 3 Z" fill="#5eead4"/>
+      <path d="M4 0 L-3 -5 L7 -2 Z" fill="#99f6e4"/>
+    </g>
+  </g>
+  <g>
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 78 240 C 300 226, 610 190, 858 145"/>
+    <g filter="url(#shotGlow)">
+      <circle cy="-2" r="3.2" fill="#fef08a">
+        <animate attributeName="cx" values="32;210" dur="1.65s" begin="0s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.76;1" dur="1.65s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cy="2" r="2.8" fill="#fb7185">
+        <animate attributeName="cx" values="32;195" dur="1.65s" begin=".55s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.76;1" dur="1.65s" begin=".55s" repeatCount="indefinite"/>
+      </circle>
+      <circle cy="0" r="2.6" fill="#67e8f9">
+        <animate attributeName="cx" values="32;180" dur="1.65s" begin="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.76;1" dur="1.65s" begin="1.1s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
+
