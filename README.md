@@ -33,14 +33,6 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/MeerMujtaba/MeerMujtaba/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake animation" />
-
-</div>
-
----
-
-<div align="center">
-
 ### 🛠️ Tech Stack
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
