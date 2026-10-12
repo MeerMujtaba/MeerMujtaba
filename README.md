@@ -21,7 +21,8 @@
 <a href="https://meermujtaba.github.io/Portfolio-Website/">portfolio</a> ·
 <a href="https://github.com/MeerMujtaba">github</a> ·
 <a href="https://www.linkedin.com/in/meer-mujtaba">linkedin</a> ·
-<a href="mailto:meermujtaba@gmail.com">email</a>
+<a href="mailto:meermujtaba@gmail.com">email</a> ·
+<a href="https://orcid.org/0009-0000-9827-9369">orcid</a>
 </p>
 
 <sub><i>"I like building things that work — and learning why they don't."</i></sub>
